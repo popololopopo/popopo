@@ -1,1 +1,17 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="10" x="97" y="22">
+    <next>
+      <block type="variables_set" id="103" inline="true">
+        <field name="VAR">item</field>
+        <value name="VALUE">
+          <block type="math_number" id="65">
+            <field name="NUM">200</field>
+          </block>
+        </value>
+        <next>
+          <block type="movement_stop" id="114"></block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
